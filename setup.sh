@@ -26,5 +26,5 @@ if [ -f ${NVIM_SETTING} ]; then
 fi
 
 # add symbolic link
-rm ~/.config/nvim
-ln -s ${script_dir}/config ~/.config/ghostty/config
+rm ~/.config/ghostty
+ln -s ${script_dir} ~/.config/ghostty
